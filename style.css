@@ -1,0 +1,141 @@
+.header-body {
+    width: 1240px;
+    margin: auto;
+}
+
+.header-body-menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-body-menu nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px;
+    display: block;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.header {
+    background: green;
+}
+.header-body-menu nav ul li a:hover {
+    background: black;
+}
+.header-body-menu ul li {
+    border-left: 0.5px solid #FFFFFF;
+    border-right: 0.5px solid #FFFFFF;
+}
+.header-body-menu ul li:last-child {
+    border-right: 0;
+}
+
+.header-body-menu ul li:first-child {
+    border-left: 0;
+}
+.main-logo-box {
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.main-logo-box img {
+    max-width: 100%;
+}
+.shere-box {
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+.shere-box-menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.shere-box-menu nav ul li a {
+    text-decoration: none;
+    padding: 8px;
+    font-size: 15px;
+    display: block;
+    color: white;
+}
+
+.shere {
+    background: green;
+}
+
+.shere-box-menu ul li {
+            border-left: 1px solid #FFFFFF;
+            border-right: 1px solid #FFFFFF;}
+
+.shere-box-menu ul li:first-child {
+    border-left: 0;
+}
+
+.shere-box-menu ul li:last-child {
+    border-right: 0;
+}
+.shere-box-menu {
+    width: 70%;
+}
+
+.shere-box-link.logo {
+    width: 30%;
+}
+
+
+
+.footer-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box-logo {
+    /* width: 27%; */
+    padding: 34px;
+}
+
+.footer-box-tex {
+    /* width: 76%; */
+    padding: 17px;
+}
+
+.footer-box-logo img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background: antiquewhite;
+}
+
+.footer-box-tex h1 {
+    font-size: 20px;
+    padding-top: 36px;
+}
+
+.footer-box-tex h2 {
+    font-size: 20px;
+}
+
+.footer-box-tex h3 {
+    font-size: 15px;
+}
+
+.footer-box-tex h4 {
+    font-size: 15px;
+    line-height: 10%;
+}
+
+.footer-box-tex h5 {
+    line-height: 10%;
+}

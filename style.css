@@ -234,3 +234,73 @@
 .sea-khabara-item-text-2 h2 {
     font-size: 13px;
 }
+.National-item {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.National-item-photo {
+    width: 32%;
+}
+.National-item-photo p {
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+.bhasundara {
+    width: 900px;
+    margin: auto;
+}
+.Politics {
+    width: 900px;
+    margin: auto;
+    background: green;
+    color: white;
+}
+.politics-item {
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.politics-item-text-1 {
+    width: 55%;
+}
+
+.politics-item-text-2 {
+    width: 23%;
+}
+
+img {
+    max-width: 100%;
+}
+.politics-item-text-2-2 {
+    display: flex;
+    /* width: 326px; */
+    /* margin: auto; */
+    justify-content: space-around;
+    padding: 4px 0;
+}
+
+.politics-item-text-2-2 p {
+    font-size: 9px;
+}
+.politics-item-text-1 h1 {
+    font-size: 18px;
+}
+.bacground {
+    width: 900px;
+    height: 210px;
+    background: grey;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.International {
+    width: 900px;
+    margin: auto;
+    background: green;
+    color: white;
+}

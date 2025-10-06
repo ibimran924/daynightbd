@@ -49,6 +49,7 @@
 .shere-box {
     width: 1200px;
     margin: auto;
+    display: flex;
 }
 
 
@@ -81,14 +82,6 @@
 .shere-box-menu ul li:last-child {
     border-right: 0;
 }
-.shere-box-menu {
-    width: 70%;
-}
-
-.shere-box-link.logo {
-    width: 30%;
-}
-
 
 
 .footer-box {
@@ -138,4 +131,63 @@
 
 .footer-box-tex h5 {
     line-height: 10%;
+}
+.shere-box-link-logo {
+    display: flex;
+       width: 16%;
+    justify-content: end;
+}
+
+.shere-box-link-logo ul  {
+    /* font-size: 12px; */
+    padding: 12px;
+    display: block;
+    color: red;
+    margin-left: 0;
+    font-size: 16px;
+    
+}
+.shere-box-link-logo p {
+    font-size: 22px;
+    color: blue;
+}
+.esign-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.esign-box-maile {
+    width: 40%;
+}
+
+.esign-box-logo {
+    width: 40%;
+}
+
+.esign-box-logo nav ul {display: flex;list-style: none;}
+
+
+.esign-box-logo nav ul li a {
+    color: white;
+    margin-left: 0;
+    padding: 8px;
+}
+
+.esign {
+    background: black;
+}
+
+.esign-box-maile p {
+    color: white;
+}
+.esign-box-logo ul li {
+    width: 1px;
+    margin: 15px;
+    border-radius: 20%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
